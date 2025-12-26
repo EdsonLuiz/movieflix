@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: movieflix
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+  flyway:
+    enabled: true
